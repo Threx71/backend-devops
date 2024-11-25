@@ -10,7 +10,7 @@ describe("Bateria de test de servidor", () => {
             .expect(200)
             .expect("Content-Type", /text/)
             .then(response => {
-                expect(response.text).toBe("Hola mundo al usuario cmd");
+                expect(response.text).toBe("Hola mundo al usuario Gonzalo Reyes");
             });
     });
 
